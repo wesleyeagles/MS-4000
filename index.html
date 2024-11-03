@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=warning" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>MS-4000</title>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
+    <style>
+        html {
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        tr:nth-child(odd) {
+            background-color: #F5F5F560;
+        }
+
+        tr:nth-child(even) {
+            background-color: #EEEEEE;
+        }
+
+        td {
+            padding-block: 16px;
+            padding-inline: 24px;
+        }
+
+        .container {
+            max-width: 1990px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .slider {
+            display: flex;
+        }
+
+        .slider .slick-slider {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .slick-slide {
+            margin: 0 32px;
+        }
+
+        .slider img {
+            width: 100%;
+            height: auto;
+        }
+
+        .slick-prev:before,
+        .slick-next:before {
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div style="background-image: linear-gradient(145deg, rgb(109, 70, 20) 0%, rgba(0,0,0,1) 30%, rgba(0,0,0,1) 100%)"
+            class="lg:h-[950px] relative bg-gradient-to-br from-black to-zinc-900 text-white overflow-hidden py-20">
+            <div class="absolute bottom-0 right-0 rounded-tl-[100%] z-10">
+                <Image src="/images/vetor-1.png" alt="MS-4000 Digital Manifold" />
+            </div>
+            <div class="container relative">
+
+
+                <div class="text-center mb-16">
+                    <h2 class="text-[32px] lg:text-[48px] text-white font-semibold">MANIFOLD DIGITAL</h2>
+                    <div class="flex flex-col w-max m-auto">
+                        <h1
+                            class="bg-gradient-to-r  text-[60px] lg:text-[80px] font-black inline-block text-transparent bg-clip-text from-[#FF9600] to-[#F9770E] leading-none">
+                            MS-4000</h1>
+                        <span
+                            class="bg-gradient-to-r from-[#EE860000] from-0% via-[#EE8600] via-50% to-[#EE860000] h-[4px]"></span>
+                    </div>
+                </div>
+                <div class="grid md:grid-cols-2 gap-12 items-center">
+                    <div class="relative">
+                        <Image src="/images/produtos-banner.png" alt="MS-4000 Digital Manifold" width={600} height={600}
+                            class="w-full h-auto" />
+                    </div>
+                    <div class="space-y-6">
+                        <p class="text-lg text-zinc-200">
+                            A série MS de manômetro coletor inteligente integra funções como medição de pressão e
+                            temperatura, medição de retenção de pressão, medição de vácuo, medição de peso do
+                            refrigerante e registro de dados. Isto é adequado para inspeção diária e manutenção
+                            do sistema HVAC/R.
+                        </p>
+                        <ul class="space-y-4 text-zinc-300">
+                            <li class="flex items-start gap-2">
+                                <span class="text-orange-500">•</span>
+                                Operação simples e fácil com tela de toque inteligente de 5", exibição de dados clara
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-orange-500">•</span>
+                                Suporte a Operação de App pelo Bluetooth, visualização e análise de dados em tempo real
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-orange-500">•</span>
+                                Suporte USB para ler e exportar dados
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-orange-500">•</span>
+                                Modo de bomba de calor automático sem mudar as mangueiras de refrigerante
+                            </li>
+                            <li class="flex items-start gap-2">
+                                <span class="text-orange-500">•</span>
+                                Detecte o vazamento de vácuo, monitorando o valor do vácuo com precisão
+                            </li>
+                        </ul>
+                        <div class="bg-zinc-900/50 p-4 rounded-lg border border-orange-500/20">
+                            <div class="flex items-center gap-2 text-orange-500 mb-2">
+                                <span class="material-symbols-outlined">
+                                    warning
+                                </span>
+                                <span class="font-semibold">ATENÇÃO</span>
+                            </div>
+                            <p class="text-sm text-zinc-400">
+                                A função de medição do peso do refrigerante funciona com balanças eletrônicas de
+                                refrigerante Elitech. Por favor compre a escala separadamente, se necessário.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container mt-20">
+            <div class="slider">
+                <div class="flex flex-col h-max">
+                    <div>
+                        <img src="/images/slide-1.png" alt="">
+                    </div>
+                    <div class="flex items-center justify-center border h-[100px]">
+                        <span class="font-medium uppercase text-center">Interface principal</span>
+                    </div>
+                </div>
+                <div class="flex flex-col h-max">
+                    <div>
+                        <img src="/images/slide-2.png" alt="">
+                    </div>
+                    <div class="flex items-center justify-center border h-[100px]">
+                        <span class="font-medium uppercase text-center">Interface de configuração</span>
+                    </div>
+                </div>
+                <div class="flex flex-col h-max">
+                    <div>
+                        <img src="/images/slide-3.png" alt="">
+                    </div>
+                    <div class="flex items-center justify-center border h-[100px]">
+                        <span class="font-medium uppercase text-center">Config. das unidades de medida</span>
+                    </div>
+                </div>
+                <div class="flex flex-col h-max">
+                    <div>
+                        <img src="/images/slide-4.png" alt="">
+                    </div>
+                    <div class="flex items-center justify-center border h-[100px]">
+                        <span class="font-medium uppercase text-center">Seleção do fluido refrigerante</span>
+                    </div>
+                </div>
+                <div class="flex flex-col h-max">
+                    <div>
+                        <img src="/images/slide-4.png" alt="">
+                    </div>
+                    <div class="flex items-center justify-center border h-[100px]">
+                        <span class="font-medium uppercase text-center">Seleção do fluido refrigerante</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-32 hidden lg:block">
+            <h2 class="text-[28px] font-medium text-black mb-16">Especificações do produto</h2>
+
+            <table class="w-full">
+                <tr>
+                    <td>Faixa de medição de pressão</td>
+                    <td>-14.5800psi/1.055.2bar/0.15.5MPa/-1.056.2kg/cm²</td>
+                </tr>
+
+                <tr>
+                    <td>Precisão</td>
+                    <td>0.5%FS</td>
+                </tr>
+
+                <tr>
+                    <td>Resolução</td>
+                    <td>0.5psi/0.03bar/0.003MPa/0.03kg/cm²</td>
+                </tr>
+
+                <tr>
+                    <td>Frequência de amostragem</td>
+                    <td>0.5s</td>
+                </tr>
+
+                <tr>
+                    <td>Unidade de pressão</td>
+                    <td>psi - kg/cm² - cmHg - inHg - bar - kPa - MPa</td>
+                </tr>
+
+                <tr>
+                    <td>Sobrecarga</td>
+                    <td>1000psi/70kg/cm²/69bar/6.8MPa</td>
+                </tr>
+
+                <tr>
+                    <td>Conexão das mangueiras</td>
+                    <td>1/4SAE*3</td>
+                </tr>
+
+                <tr>
+                    <td>Conexão dos Sensores</td>
+                    <td>PS/2/2 (a interface esquerda é multiuso da sonda de temperatura e vácuo)</td>
+                </tr>
+
+                <tr>
+                    <td>Conexão carregador</td>
+                    <td>Tipo C</td>
+                </tr>
+
+                <tr>
+                    <td>Carregador</td>
+                    <td>5VA2</td>
+                </tr>
+
+                <tr>
+                    <td>Bateria</td>
+                    <td>5000mAh</td>
+                </tr>
+
+                <tr>
+                    <td>Tempo de gravação</td>
+                    <td>500h</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="container mt-32">
+            <div class="bg-[#005CA8] p-[40px] lg:p-[80px]">
+                <div class="list-spec grid grid-cols-1 lg:grid-cols-5 lg:grid-rows-2 gap-4"></div>
+            </div>
+        </div>
+
+        <div class="container mt-10">
+            <img width="100%" src="/images/imagem-homem-com-controle-do-ar.png" alt="">
+        </div>
+
+        <div class="container mt-32">
+            <h2 class="text-lg uppercase font-medium">gases refrigerantes compatíveis</h2>
+            <p class="leading-7 text-[#00000085] mt-8 border-b border-[#00000016] pb-16">R11, R113, R114, R115, R116,
+                R12, R123, R1233ZD, R1234YF, R1234ZE, R124, R125, R13, R134A, R141B, R142B,
+                R143A, R152A, R161, R170, R21, R218, R22, R227EA, R23, R236EA, R236FA, R245FA, R290, R32, R40, R401A,
+                R401B, R401C, R402A, R402B, R403A, R403B, R404A, R405A, R406A, R407A, R407B, R407C, R407D, R407E, R407F,
+                R408A, R409A, R409B, R41, R410A, R410B, R411A, R411B, R412A, R413A, R414A, R414B, R415A, R415B, R416A,
+                R417A, R417B, R417C, R418A, R419A, R420A, R421A, R421B, R422A, R422B, R422C, R422D, R422E, R423A, R423B,
+                R424A, R425A, R426A, R427A, R428A, R429A, R430A, R431A, R432A, R433A, R434A, R435A, R436A, R437A, R438A,
+                R439A, R440A, R441A, R442A, R443A, R444A, R445A, R446A, R447A, R448A, R449A, R450A, R451A, R452A, R452B,
+                R452C, R453A, R454A, R454B, R454C, R455A, R456A, R457A, R458A, R459A, R500, R502, R503, R504, R507A,
+                R508A, R508B, R509A, R510A, R512A, R514A, R600, R600A, R601, R601A, R717, R717B, R728, R729, R740, R744.
+            </p>
+        </div>
+
+        <div class="container mt-32">
+            <div class="flex flex-col lg:flex-row justtify-between">
+                <div class="lg:w-1/2">
+                    <h2 class="text-[32px] font-medium text-black mb-16 lg:max-w-[200px] leading-10">Conteúdo da embalagem
+                    </h2>
+                    <ul class="list-decimal list-inside">
+                        <li>Manifold digital inteligente MS-4000</li>
+                        <li>Mangueira de 1/4" por 1,5m de comprimento c/ registro tipo esfera de Baixa pressão</li>
+                        <li>Mangueira de 1/4" por 1,5m de comprimento c/ registro tipo esfera de alta pressão</li>
+                        <li>Unidade Mangueira de 1/4" por 1,5m de comprimento c/ registro tipo esfera de serviço</li>
+                        <li>Mangueira de 3/8" por 1,5m sem registro (indicada para uso na bomba de vácuo)</li>
+                        <li>Transmissor de vácuo</li>
+                        <li>Pinças de temperatura</li>
+                        <li>junta em T</li>
+                        <li>Junta flexão do transmissor</li>
+                        <li>Cabo USB-C</li>
+                        <li>Adaptador Universal de energia</li>
+                        <li>Maleta portátil</li>
+                    </ul>
+                </div>
+
+                <div class="lg:w-1/2 flex lg:justify-end mt-12 lg:mt-0">
+                    <img src="/images/maleta.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-32">
+            <h2 class="text-[28px] font-medium text-black mb-16">Aplicações</h2>
+
+            <div class="grid grid-cols-2 lg:grid-cols-3 lg:grid-rows-1 gap-4 lg:gap-8">
+                <div class="rounded-[10px] overflow-hidden">
+                    <img class="w-full" src="/images/aplicacao-1.png" alt="">
+                </div>
+
+                <div class="rounded-[10px] overflow-hidden">
+                    <img class="w-full" src="/images/aplicacao-2.png" alt="">
+                </div>
+
+                <div class="rounded-[10px] overflow-hidden col-span-2 lg:col-span-1">
+                    <img class="w-full" src="/images/aplicacao-3.png" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-32">
+            <h2 class="text-[32px] font-medium text-black mb-6 text-center">Faça o download do app</h2>
+            <p class="text-[#848484] text-center lg:w-[680px] mx-auto">Elitech Tools é um aplicativo prático que auxilia
+                usuários nas medições de sistemas de refrigeração, ar condicionado e aquecimento com produtos Elitech
+                HVAC via Bluetooth.</p>
+
+            <div class="grid grid-cols-2 lg:grid-cols-7 grid-rows-1 gap-8 mt-40">
+                <div class="border rounded-md border-[#00000016] col-span-2 pb-10">
+                    <div class="border border-[#005CA832] rounded-full w-[55px] h-[55px] flex items-center justify-center mx-auto mt-10 mb-6">
+                        <svg width="22" height="27" viewBox="0 0 22 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M6.63948 7.58925C2.4079 7.58925 1 11.8393 1 15.3787C1 19.6274 3.81974 25.9998 6.63948 25.9998C8.17237 25.934 9.00658 25.2919 10.8684 25.2919C12.7184 25.2919 12.9829 25.9998 15.0974 25.9998C17.2118 25.9998 20.7369 21.7511 20.7369 18.9195C20.6974 18.905 17.2513 18.3485 17.2118 14.6695C17.1855 11.5971 20.6184 10.4866 20.7369 10.4221C19.2947 8.30899 16.5763 7.64188 15.8026 7.58925C13.7829 7.43136 11.8132 9.00636 10.8684 9.00636C9.90921 9.00636 8.18948 7.58925 6.63948 7.58925Z"
+                                stroke="#005CA8" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                                d="M11.5254 3.63158C12.2233 3.63158 12.8927 3.35433 13.3862 2.86081C13.8797 2.36729 14.157 1.69794 14.157 1C13.459 1 12.7897 1.27725 12.2962 1.77077C11.8026 2.26429 11.5254 2.93364 11.5254 3.63158Z"
+                                stroke="#005CA8" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </div>
+
+                    <h2 class="text-[20px] font-medium text-black mb-6 text-center">IOS System</h2>
+
+                    <div class="flex items-center justify-center mt-10">
+                        <img src="/images/ios-qr.png" alt="">
+                    </div>
+                </div>
+
+                <div class="bg-[#F5F5F5] col-span-3 relative flex justify-center hidden lg:block">
+                    <img class="absolute bottom-0" src="/images/aplicativo.png" alt="">
+                </div>
+
+                <div class="border rounded-md border-[#00000016] col-span-2 pb-10">
+                    <div class="border border-[#005CA832] rounded-full w-[55px] h-[55px] flex items-center justify-center mx-auto mt-10 mb-6">
+                        <svg width="22" height="25" viewBox="0 0 22 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 9.75V17.25" stroke="#005CA8" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M21 9.75V17.25" stroke="#005CA8" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M4.74994 8.49974H17.2499M4.74994 8.49974V18.4997C4.74994 18.8312 4.88163 19.1492 5.11605 19.3836C5.35047 19.618 5.66842 19.7497 5.99994 19.7497H15.9999C16.3314 19.7497 16.6494 19.618 16.8838 19.3836C17.1182 19.1492 17.2499 18.8312 17.2499 18.4997V8.49974M4.74994 8.49974C4.74994 6.84214 5.40842 5.25243 6.58052 4.08033C7.75262 2.90823 9.34232 2.24976 10.9999 2.24976C12.6575 2.24976 14.2472 2.90823 15.4193 4.08033C16.5914 5.25243 17.2499 6.84214 17.2499 8.49974" stroke="#005CA8" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M6.00007 1L7.25007 3.49999" stroke="#005CA8" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M15.9999 1L14.7499 3.49999" stroke="#005CA8" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M7.2499 19.7498V23.4997" stroke="#005CA8" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M14.7499 19.7498V23.4997" stroke="#005CA8" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            
+                    </div>
+
+                    <h2 class="text-[20px] font-medium text-black mb-6 text-center">Android</h2>
+
+                    <div class="flex items-center justify-center mt-10">
+                        <img src="/images/android-qr.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-32">
+            <div class="flex flex-col lg:flex-row justify-between items-center pb-10 border-b border-[#00000016]">
+                <div class="lg:w-[400px]">
+                    <h2 class="text-[28px] font-medium text-black mb-6">Manual do produto</h2>
+                    <p class="text-[#848484]">Faça o download do Manual de Uso e entenda tudo o que precisa sobre este produto!</p>
+                </div>
+
+                <div class="w-max mt-12 lg:mt-0">
+                    <button class="bg-[#F9770E] hover:bg-[#F9770E]/90 text-white rounded-full py-4 px-8 flex items-center gap-2 font-medium">
+                        Download do manual
+                        <svg width="12" height="14" viewBox="0 0 12 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M1 8L6 13L11 8" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M6 1V13" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="container mt-32 hidden lg:block">
+            <table class="w-full">
+                <thead>
+                    <tr>
+                        <th class="border border-[#00000016]">Comparativo Manômetros e Manifolds</th>
+                        <th class="border border-[#00000016]">
+                            <a href="https://www.elitechbrasil.com.br/pg-30-pro-blue-manifold-digital-500-psi-87-gases.html" target="_blank">
+                                <img src="https://www.elitechbrasil.com.br/upload/produto/imagem/b_pg-30-pro-blue-manifold-digital-500-psi-87-gases-2.jpg" alt="">
+                            </a>
+                        </th>
+
+                        <th class="border border-[#00000016]">
+                            <a href="https://www.elitechbrasil.com.br/pg-30-pro-red-manifold-digital-800-psi-87-gases.html" target="_blank">
+                                <img src="https://www.elitechbrasil.com.br/upload/produto/imagem/b_pg-30-pro-red-manifold-digital-800-psi-87-gases-3.jpg" alt="">
+                            </a>
+                        </th>
+
+                        <th class="border border-[#00000016]">
+                            <a href="https://www.elitechbrasil.com.br/pgw-500-indicador-de-pressao-digital-87-gases-0-500-psi.html" target="_blank">
+                                <img src="https://www.elitechbrasil.com.br/upload/produto/imagem/b_pgw-500-indicador-de-press-o-digital-87-gases-0-500-psi-5.jpg" alt="">
+                            </a>
+                        </th>
+
+                        <th class="border border-[#00000016]">
+                            <a href="https://www.elitechbrasil.com.br/pt-500-psi800-psi-indicador-de-pressao-digital-87-gases.html" target="_blank">
+                                <img src="https://www.elitechbrasil.com.br/upload/produto/imagem/b_kit-2-manometros-indicador-de-press-o-digital-bluetooth-87-gases-pt-500-psi-800-psi.jpg" alt="">
+                            </a>
+                        </th>
+
+                        <th class="border border-[#00000016]">
+                            <a href="https://www.elitechbrasil.com.br/dmg-3-manifold-digital-com-02-mamometros-para-87-tipos-de-gases.html" target="_blank">
+                                <img src="https://www.elitechbrasil.com.br/upload/produto/imagem/b_dmg-3-kit-completo-manifold-digital-com-02-man-metros-para-87-tipos-de-gases-c-mangueiras.jpg" alt="">
+                            </a>
+                        </th>
+
+                        <th class="border border-[#00000016]">
+                            <a href="https://www.elitechbrasil.com.br/ms-4000-manifold-digital-com-vacuometro-bluetooth-4-vias.html" target="_blank">
+                                <img src="https://www.elitechbrasil.com.br/upload/produto/imagem/b_ms-4000-manifold-digital-inteligente-com-vacuometro-bluetooth-4-vias.jpg" alt="">
+                            </a>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th class="border border-[#00000016]">Modelos</th>
+                        <td class="text-center text-blue-600 font-bold pointer border border-[#00000016]">
+                            <a href="https://www.elitechbrasil.com.br/pg-30-pro-blue-manifold-digital-500-psi-87-gases.html" target="_blank">PG-30 Pro Blue</a>
+                        </td>
+                        <td class="text-center text-blue-600 font-bold pointer border border-[#00000016]">
+                            <a href="https://www.elitechbrasil.com.br/pg-30-pro-red-manifold-digital-800-psi-87-gases.html" target="_blank">PG-30 Pro Red</a>
+                        </td>
+                        <td class="text-center text-blue-600 font-bold pointer border border-[#00000016]">
+                            <a href="https://www.elitechbrasil.com.br/pgw-500-indicador-de-pressao-digital-87-gases-0-500-psi.html" target="_blank">PGW-500</a>
+                        </td>
+                        <td class="text-center text-blue-600 font-bold pointer border border-[#00000016]">
+                            <a href="https://www.elitechbrasil.com.br/pt-500-psi800-psi-indicador-de-pressao-digital-87-gases.html" target="_blank">PT-500 & PT-800</a>
+                        </td>
+                        <td class="text-center text-blue-600 font-bold pointer border border-[#00000016]">
+                            <a href="https://www.elitechbrasil.com.br/dmg-3-manifold-digital-com-02-mamometros-para-87-tipos-de-gases.html" target="_blank">DMG-3</a>
+                        </td>
+                        <td class="text-center text-blue-600 font-bold pointer border border-[#00000016]">
+                            <a href="https://www.elitechbrasil.com.br/ms-4000-manifold-digital-com-vacuometro-bluetooth-4-vias.html" target="_blank">MS-4000</a>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <th class="border border-[#00000016] text-center p-2">Faixa De Medição De pressão</th>
+                        <td class="border border-[#00000016] text-center">-14.5 Até 500psi</td>
+                        <td class="border border-[#00000016] text-center">-14.5 Até 800psi</td>
+                        <td class="border border-[#00000016] text-center">-14.5 Até 500psi</td>
+                        <td class="border border-[#00000016] text-center">-14.5 Até 500psi/800psi</td>
+                        <td class="border border-[#00000016] text-center">-14.5 Até 500psi/800psi</td>
+                        <td class="border border-[#00000016] text-center">-14.5 Até 500psi/800psi</td>
+                    </tr>
+
+                    <tr>
+                        <th class="border border-[#00000016] text-center p-2">Precisão</th>
+                        <td class="border border-[#00000016] text-center">± 0.5% FS(22-28 ℃)</td>
+                        <td class="border border-[#00000016] text-center">± 0.5% FS(22-28 ℃)</td>
+                        <td class="border border-[#00000016] text-center">± 0.5% FS(22-28 ℃)</td>
+                        <td class="border border-[#00000016] text-center">± 0.5% FS(22-28 ℃)</td>
+                        <td class="border border-[#00000016] text-center">± 0.5% FS(22-28 ℃)</td>
+                        <td class="border border-[#00000016] text-center">± 0.5% FS(22-28 ℃)</td>
+                    </tr>
+
+                    <tr>
+                        <th class="border border-[#00000016] text-center p-2">Resolução</th>
+                        <td class="border border-[#00000016] text-center">0.5psi</td>
+                        <td class="border border-[#00000016] text-center">0.5psi</td>
+                        <td class="border border-[#00000016] text-center">0.5psi</td>
+                        <td class="border border-[#00000016] text-center">0.5psi</td>
+                        <td class="border border-[#00000016] text-center">0.5psi</td>
+                        <td class="border border-[#00000016] text-center">0.5psi</td>
+                    </tr>
+
+                    <tr>
+                        <th class="border border-[#00000016] text-center p-2">Encaixe</th>
+                        <td class="border border-[#00000016] text-center">1/8 ''NPT</td>
+                        <td class="border border-[#00000016] text-center">1/8 ''NPT</td>
+                        <td class="border border-[#00000016] text-center">1/8 ''NPT</td>
+                        <td class="border border-[#00000016] text-center">1/8 ''NPT</td>
+                        <td class="border border-[#00000016] text-center">1/4 ''SAE</td>
+                        <td class="border border-[#00000016] text-center">1/4 ''SAE - 3/8 ''SAE</td>
+                    </tr>
+
+                    <tr>
+                        <th class="border border-[#00000016] text-center p-2">Unidades de medida</th>
+                        <td class="border border-[#00000016] text-center">Mpa, kpa, bar, psi,kg/m², cmhg</td>
+                        <td class="border border-[#00000016] text-center">Mpa, kpa, bar, psi, kg/cm², cmhg</td>
+                        <td class="border border-[#00000016] text-center">Psi, inhg, kg/cm², cmhg, bar, kpa, mpa</td>
+                        <td class="border border-[#00000016] text-center">Psi, inhg, kg/cm², cmhg, bar, kpa, mpa</td>
+                        <td class="border border-[#00000016] text-center">Mpa, kpa, bar, psi, kg/cm², cmhg</td>
+                        <td class="border border-[#00000016] text-center">Mpa, kpa, bar, psi, kg/cm², cmhg,microns</td>
+                    </tr>
+
+                    <tr>
+                        <th class="border border-[#00000016] text-center p-2">Tipos de refrigerantes</th>
+                        <td class="border border-[#00000016] text-center">87</td>
+                        <td class="border border-[#00000016] text-center">87</td>
+                        <td class="border border-[#00000016] text-center">140</td>
+                        <td class="border border-[#00000016] text-center">140</td>
+                        <td class="border border-[#00000016] text-center">87</td>
+                        <td class="border border-[#00000016] text-center">87</td>
+                    </tr>
+
+
+                    <tr>
+                        <th class="border border-[#00000016] text-center p-2">Aplicativo sem fio</th>
+                        <td class="border border-[#00000016] text-center">Não Possui</td>
+                        <td class="border border-[#00000016] text-center">Não Possui</td>
+                        <td class="border border-[#00000016] text-center">✓</td>
+                        <td class="border border-[#00000016] text-center">✓</td>
+                        <td class="border border-[#00000016] text-center">Não Possui</td>
+                        <td class="border border-[#00000016] text-center">✓</td>
+                    </tr>
+
+                    <tr>
+                        <th class="border border-[#00000016] text-center p-2">Cálculo Automático Super-aquecimento e Sub-resfriamento</th>
+                        <td class="border border-[#00000016] text-center">Não Possui</td>
+                        <td class="border border-[#00000016] text-center">Não Possui</td>
+                        <td class="border border-[#00000016] text-center">✓</td>
+                        <td class="border border-[#00000016] text-center">✓</td>
+                        <td class="border border-[#00000016] text-center">Não Possui</td>
+                        <td class="border border-[#00000016] text-center">✓</td>
+                    </tr>
+
+                    <tr>
+                        <th class="border border-[#00000016] text-center p-2">Pinças de Temperatura</th>
+                        <td class="border border-[#00000016] text-center">Não Possui</td>
+                        <td class="border border-[#00000016] text-center">Não Possui</td>
+                        <td class="border border-[#00000016] text-center">Não Possui</td>
+                        <td class="border border-[#00000016] text-center">✓</td>
+                        <td class="border border-[#00000016] text-center">Não Possui</td>
+                        <td class="border border-[#00000016] text-center">✓</td>
+                    </tr>
+
+                    <tr>
+                        <th class="border border-[#00000016] text-center p-2">Mangueiras</th>
+                        <td class="border border-[#00000016] text-center">Não Possui</td>
+                        <td class="border border-[#00000016] text-center">Não Possui</td>
+                        <td class="border border-[#00000016] text-center">Não Possui</td>
+                        <td class="border border-[#00000016] text-center">Não Possui</td>
+                        <td class="border border-[#00000016] text-center">✓</td>
+                        <td class="border border-[#00000016] text-center">✓</td>
+                    </tr>
+
+                    <tr>
+                        <th class="border border-[#00000016] text-center p-2">Vacuômetro Integrado</th>
+                        <td class="border border-[#00000016] text-center">Não Possui</td>
+                        <td class="border border-[#00000016] text-center">Não Possui</td>
+                        <td class="border border-[#00000016] text-center">Não Possui</td>
+                        <td class="border border-[#00000016] text-center">Não Possui</td>
+                        <td class="border border-[#00000016] text-center">Não Possui</td>
+                        <td class="border border-[#00000016] text-center">✓</td>
+                    </tr>
+
+                    <tr>
+                        <th class="border border-[#00000016] text-center p-2">Exportação de Dados</th>
+                        <td class="border border-[#00000016] text-center">Não Possui</td>
+                        <td class="border border-[#00000016] text-center">Não Possui</td>
+                        <td class="border border-[#00000016] text-center">✓</td>
+                        <td class="border border-[#00000016] text-center">✓</td>
+                        <td class="border border-[#00000016] text-center">Não Possui</td>
+                        <td class="border border-[#00000016] text-center">✓</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script type="text/javascript" src="/javascript/variables.js"></script>
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+            $('.slider').slick({
+                dots: false,
+                infinite: true,
+                speed: 300,
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                responsive: [
+                    {
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 1
+                        }
+                    },
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            slidesToShow: 1
+                        }
+                    },
+                    {
+                        breakpoint: 640,
+                        settings: {
+                            slidesToShow: 1
+                        }
+                    }
+                ],
+                prevArrow: `<button type="button" class="slick-prev"><svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="18" cy="18" r="17.5" transform="matrix(-1 0 0 1 36 0)" stroke="black" stroke-opacity="0.4"/>
+<path d="M20 25L13 18" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M20 11L13 18" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</button>`,
+                nextArrow: `<button type="button" class="slick-next"><svg width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="18" cy="18" r="17.5" stroke="black" stroke-opacity="0.4"/>
+<path d="M16 25L23 18" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M16 11L23 18" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
+</button>`
+            });
+        });
+
+
+    </script>
+</body>
+
+</html>
